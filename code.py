@@ -17,7 +17,7 @@ def save_posts(posts):
         json.dump(posts, file, indent=4)
 
 def main():
-    st.set_page_config(page_title="Simple Blog Platform")
+    st.set_page_config(page_title="The Blog")
     st.title("📝 The Blog")
     
     menu = ["Home", "New Post", "Manage Posts"]
