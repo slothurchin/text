@@ -4,7 +4,7 @@ import os
 
 # File to store blog posts
 BLOG_FILE = "blog_posts.json"
-PUBLIC_URL = "https://blog.streamlit.app"  # Public URL for search engines
+PUBLIC_URL = "https://slothurchin.streamlit.app"  # Public URL for search engines
 
 def load_posts():
     if os.path.exists(BLOG_FILE):
