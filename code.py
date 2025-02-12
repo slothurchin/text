@@ -18,7 +18,7 @@ def save_posts(posts):
 
 def main():
     st.set_page_config(page_title="Simple Blog Platform")
-    st.title("📝 My Streamlit Blog")
+    st.title("📝 Our Streamlit Blog")
     
     menu = ["Home", "New Post", "Manage Posts"]
     choice = st.sidebar.selectbox("Menu", menu)
